@@ -265,7 +265,7 @@ Certainly! Improving upon the Mathematical Modeling section of your whitepaper c
 
 - **Value at Risk (VaR) Formula**: 
    - **Definition**: VaR is a statistical technique used to measure and quantify the level of financial risk within a firm or investment portfolio over a specific time frame.
-   - **Formula**: $( VaR = Z $times $sigma $times $sqrt{t} $)
+   - **Formula**: $( VaR = Z $times $sigma $times $sqrt{t} )$
    - **Where**:
       - $( Z $) = Z-score (standard deviation)
       - $( $sigma $) = volatility of the portfolio
@@ -274,7 +274,7 @@ Certainly! Improving upon the Mathematical Modeling section of your whitepaper c
 
 - **Conditional Value at Risk (CVaR) Computation**: 
    - **Definition**: CVaR provides an expected loss over a specific time frame that exceeds the VaR.
-   - **Formula**: $( CVaR = $frac{1}{(1 - $alpha)} $int_{-$infty}^{VaR} x $cdot f(x) $, dx $)
+   - **Formula**: $( CVaR = $frac{1}{(1 - $alpha)} $int_{-$infty}^{VaR} x $cdot f(x) $, dx )$
    - **Where**:
       - $( $alpha $) = confidence level
       - $( f(x) $) = probability density function of the loss
@@ -286,7 +286,7 @@ Certainly! Improving upon the Mathematical Modeling section of your whitepaper c
 
 - **Supply-Demand Equilibrium Algorithm**:
    - **Objective**: The algorithm aims to maintain equilibrium between token supply and demand, ensuring stability in the platform's economy.
-   - **Formula**: $( $Delta S = $lambda $times (D_m - D_h) $)
+   - **Formula**: $( $Delta S = $lambda $times (D_m - D_h) )$
    - **Where**:
       - $( $Delta S $) = Change in token supply
       - $( $lambda $) = Adjustment factor (based on historical data)
@@ -297,7 +297,7 @@ Certainly! Improving upon the Mathematical Modeling section of your whitepaper c
 #### Stablecoin Pegging Mechanism
 
 - **Basket-Weighted Peg Formula**:
-   - **Formula**: $( P_{KuCoin} = $sum w_i $cdot P_i $)
+   - **Formula**: $( P_{KuCoin} = $sum w_i $cdot P_i )$
    - **Where**:
       - $( P_{KuCoin} $) = Price of KuCoin
       - $( w_i $) = Weight of the ith asset in the basket
