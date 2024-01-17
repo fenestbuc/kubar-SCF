@@ -274,7 +274,7 @@ Certainly! Improving upon the Mathematical Modeling section of your whitepaper c
 
 - **Conditional Value at Risk (CVaR) Computation**: 
    - **Definition**: CVaR provides an expected loss over a specific time frame that exceeds the VaR.
-   - **Formula**: $( CVaR = $frac{1}{(1 - $alpha)} $int_{-$infty}^{VaR} x $cdot f(x) $, dx )$
+   - **Formula**:  CVaR = $( $frac{1}{(1 - $alpha)} $int_{-$infty}^{VaR} x $cdot f(x) $, dx )$
    - **Where**:
       - $( $alpha $) = confidence level
       - $( f(x) $) = probability density function of the loss
