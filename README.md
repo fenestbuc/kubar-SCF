@@ -1,10 +1,28 @@
+# Table of Contents
+1. [Executive Summary](#executive-summary)
+2. [Introduction](#introduction)
+3. [Background and Motivation](#background-and-motivation)
+4. [The Essential Role of Blockchain Technology in Kubar Protocol](#the-essential-role-of-blockchain-technology-in-kubar-protocol)
+5. [In-Depth Technological Framework](#in-depth-technological-framework)
+6. [Financial and Mathematical Foundations Section](#financial-and-mathematical-foundations-section)
+7. [Regulatory Compliance and Auditing](#regulatory-compliance-and-auditing)
+8. [User Journey and System Interaction](#user-journey-and-system-interaction)
+9. [Technological Implementation Details](#technological-implementation-details)
+10. [Case Studies and Real-World Applications](#case-studies-and-real-world-applications)
+11. [Security Protocols and Compliance](#security-protocols-and-compliance)
+12. [Conclusion and Future Development Roadmap for Kubar Protocol](#conclusion-and-future-development-roadmap-for-kubar-protocol)
+13. [Inviting Collaboration and Participation](#inviting-collaboration-and-participation)
+14. [Be Part of the Financial Revolution](#be-part-of-the-financial-revolution)
+15. [High-level overview of system architecture](#system-architecture)
+16. [Glossary](#glossary)
+
 # Executive Summary
 
 **Kubar Protocol: Pioneering Next-Generation Supply Chain Finance**
 
 In a landscape where Medium, Small, and Micro Enterprises (MSMEs) grapple with the challenges of accessibility to working capital and efficient financial processes, Kubar Protocol emerges as a groundbreaking solution. This DeFi platform, at the intersection of innovation and practicality, redefines supply chain finance by harnessing the unparalleled capabilities of blockchain technology. Distinct from traditional and existing digital solutions, Kubar Protocol offers a unique amalgamation of security, transparency, and efficiency, tailored specifically to empower MSMEs.
 
-This whitepaper unfolds the intricate architecture, state-of-the-art technological advancements, and strategic financial mechanisms that form the backbone of the Kubar Protocol. Central to its innovation is the integration of the Commit and Review schemes, which establish a new paradigm for secure and transparent transactions in the digital finance realm. The platform's ingenuity is further amplified by its bespoke tokenomics model, anchored around the Kubar Token (KT). Designed to simplify and enhance transactional processes, KT ensures a seamless bridge between the sophistication of blockchain transactions and the familiarity of conventional financial practices. This executive summary delineates the transformative journey of the Kubar Protocol in reshaping supply chain finance, making it more accessible, efficient, and user-centric for MSMEs globally.
+This whitepaper unfolds the intricate architecture, state-of-the-art technological advancements, and strategic financial mechanisms that form the backbone of the Kubar Protocol. Central to its innovation is the integration of the Commit and Review schemes, which establish a new paradigm for secure and transparent transactions in the digital finance realm. The platform's ingenuity is further amplified by its bespoke tokenomics model, anchored around fiat currencies and stablecoins. This executive summary delineates the transformative journey of the Kubar Protocol in reshaping supply chain finance, making it more accessible, efficient, and user-centric for MSMEs globally.
 
 # Introduction
 
@@ -12,7 +30,7 @@ This whitepaper unfolds the intricate architecture, state-of-the-art technologic
 
 Kubar Protocol stands at the vanguard of financial innovation, specifically crafted to address the acute challenges faced by MSMEs in the supply chain finance sector. These enterprises, fundamental to global economic growth, often find themselves hindered by inefficiencies such as high operational costs, limited access to essential capital, and opaque financial processes. Traditional financial systems, while reliable, fall short in addressing these challenges dynamically. On the other hand, existing digital financial solutions lack the comprehensive approach needed to tackle these issues effectively.
 
-Enter Kubar Protocol, a platform where the reliability of traditional finance meets the ingenuity of decentralized finance (DeFi). It is engineered to fill the gap in the market by providing a solution that is not only secure and transparent but also intuitively aligns with the operational needs of MSMEs. At its core, the platform revolutionizes transaction validation and dispute resolution through the innovative Commit and Review schemes. This mechanism ensures the integrity and verifiability of transactions, a cornerstone in the realm of digital finance. Complementing this is the platform’s user-friendly tokenomics model centered around KT, which demystifies blockchain transactions for the average user. The introduction of this whitepaper sets the stage for exploring how the Kubar Protocol harmonizes these varied elements to create a cohesive and impactful user experience, leveraging the power of blockchain technology to revolutionize supply chain finance.
+Enter Kubar Protocol, a platform where the reliability of traditional finance meets the ingenuity of decentralized finance (DeFi). It is engineered to fill the gap in the market by providing a solution that is not only secure and transparent but also intuitively aligns with the operational needs of MSMEs. At its core, the platform revolutionizes transaction validation and dispute resolution through the innovative Commit and Review schemes. This mechanism ensures the integrity and verifiability of transactions, a cornerstone in the realm of digital finance. Complementing this is the platform’s user-friendly tokenomics model centered around fiat currencies and stablecoins, which demystifies blockchain transactions for the average user. The introduction of this whitepaper sets the stage for exploring how the Kubar Protocol harmonizes these varied elements to create a cohesive and impactful user experience, leveraging the power of blockchain technology to revolutionize supply chain finance.
 
 
 # Background and Motivation
@@ -95,7 +113,7 @@ The Kubar Protocol's core infrastructure is built on Polkadot’s Substrate fram
 
 - **Modularity and Customizability**: Substrate's modular framework allows for the creation of customized blockchain solutions. Each component, or 'pallet' in Substrate terminology, can be developed independently and then integrated into the blockchain. This modularity is crucial for Kubar Protocol, as it enables the development of specific pallets for transaction processing, DID management, and invoice financing, tailored to supply chain finance requirements.
 
-- **Interoperability and Cross-Chain Communication**: One of Substrate’s standout features is its inherent ability to facilitate interoperability, a critical requirement for Kubar Protocol. Through Polkadot’s relay chain, Substrate-based blockchains can seamlessly interact and transact with other blockchains within the Polkadot network. This capability allows Kubar Protocol to leverage the strengths of various blockchains, fostering a more integrated and efficient DeFi ecosystem.
+- **Interoperability and Cross-Chain Communication**: One of Substrate’s standout features is its inherent ability to facilitate interoperability, a critical requirement for Kubar Protocol. Through Polkadot’s relay chain, Substrate-based blockchains can seamlessly interact and transact with other blockchains within the Polkadot network through Cross-Consensus Message Format (XCM). This capability allows Kubar Protocol to leverage the strengths of various blockchains, fostering a more integrated and efficient DeFi ecosystem.
 
 - **Upgradeability Without Forks**: Substrate enables blockchain networks to upgrade without the need for hard forks. This feature is vital for Kubar Protocol, ensuring the platform can evolve and integrate new functionalities over time without disrupting service or splitting the network.
 
@@ -105,9 +123,9 @@ The Kubar Protocol's core infrastructure is built on Polkadot’s Substrate fram
 
 1. **Parachain Model**: As a parachain within the Polkadot ecosystem, Kubar Protocol leverages the shared security and consensus provided by the Polkadot Relay Chain. This integration reduces the need for a complex, standalone consensus mechanism within our platform.
 
-3. **Node Setup and Network Topology**:
+2. **Node Setup and Network Topology**:
     - **Nodes**: The Kubar Protocol operates a combination of validator, collator, and full nodes, ensuring a robust and decentralized network.
-    - **Validator Nodes**: Responsible for securing the network, validating transactions, and participating in consensus mechanisms. These nodes are incentivized to maintain network integrity.
+    - **Validator Nodes**: Responsible for securing the network, validating transactions, and participating in consensus mechanisms. These nodes are incentivized to maintain network integrity and make the system Byzantine Fault Tolerant.
     - **Collator Nodes**: Specific to Kubar Protocol, collator nodes collect transactions and produce block candidates for validators, playing a crucial role in transaction processing efficiency.
     - **Full Nodes**: These nodes maintain a full copy of the blockchain, providing redundancy and resilience against data loss.
 
@@ -116,8 +134,8 @@ The Kubar Protocol's core infrastructure is built on Polkadot’s Substrate fram
 4. **Commission-Based Reward System**: Validators are compensated from a 'Validator Reward Pool,' funded by a portion of the transaction fees collected from platform activities. Rewards are distributed proportionally based on validators' computational contributions to the network.
 
 
-3. **Runtime Environment**:
-    - **Custom Runtime Logic**: The runtime environment in Substrate allows Kubar Protocol to implement its unique business logic, including the handling of the Kubar Token (KT), transaction processing, and interaction with AI/ML microservices.
+5. **Runtime Environment**:
+    - **Custom Runtime Logic**: The runtime environment in Substrate allows Kubar Protocol to implement its unique business logic, including the handling of the fiat currencies and stablecoins, transaction processing, and interaction with AI/ML microservices.
     - **Upgradability**: The runtime can be upgraded on the fly, allowing for seamless introduction of new features or adjustments to existing ones without network disruption.
 
 #### Expected Outcomes
@@ -546,6 +564,10 @@ Kubar Protocol is more than a technological breakthrough; it's about creating a 
 **Join the Kubar Protocol revolution today – Innovate, Collaborate, Transform.**
 
 Certainly! Below is a glossary section that could be added to the Kubar Protocol whitepaper to clarify technical terms and acronyms for the reader.
+
+# System Architecture
+
+![Kubar Architecture](https://github.com/fenestbuc/kubar-protocol/blob/main/resources/Kubar%20Architecture-resized.png)
 
 ---
 
