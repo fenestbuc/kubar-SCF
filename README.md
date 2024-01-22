@@ -567,7 +567,7 @@ Certainly! Below is a glossary section that could be added to the Kubar Protocol
 
 # System Architecture
 
-![Technical Architecture.png](https://github.com/fenestbuc/kubar-protocol/blob/377e3c8cae88946a06fe03499c2363b064d63dac/resources/Kubar%20Architecture-resized.png)
+![Technical Architecture.png](https://github.com/fenestbuc/kubar-protocol/blob/38677ce7fa55eae45d0d88d384bd1466423d97fb/resources/Kubar%20Architecture-resized.png)
 
 ---
 
