@@ -387,8 +387,6 @@ Kubar Protocol integrates advanced financial risk assessment models, particularl
 ### Real-World Application
 - **Scenario Analysis**: The risk management framework of Kubar Protocol includes scenario analysis tools that simulate various market conditions and stress scenarios. These tools help in understanding the impact of extreme market movements on the platform's stability and the effectiveness of its risk mitigation strategies.
 
-Certainly! Improving upon the Mathematical Modeling section of your whitepaper can significantly enhance its depth and clarity. Here's how you can expand on this:
-
 ## Risk Assessment Models
 
 ### Value at Risk (VaR) and Conditional Value at Risk (CVaR)
@@ -562,8 +560,6 @@ As Kubar Protocol strides forward in this ambitious journey, we invite you to be
 Kubar Protocol is more than a technological breakthrough; it's about creating a community that drives the future of finance. Your participation is vital in this journey towards redefining the financial landscape.
 
 **Join the Kubar Protocol revolution today – Innovate, Collaborate, Transform.**
-
-Certainly! Below is a glossary section that could be added to the Kubar Protocol whitepaper to clarify technical terms and acronyms for the reader.
 
 # System Architecture
 
