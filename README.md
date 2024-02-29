@@ -20,7 +20,7 @@
 
 **Kubar Protocol: Pioneering Next-Generation Supply Chain Finance**
 
-In a landscape where Medium, Small, and Micro Enterprises (MSMEs) grapple with the challenges of accessibility to working capital and efficient financial processes, Kubar Protocol emerges as a groundbreaking solution. This DeFi platform, at the intersection of innovation and practicality, redefines supply chain finance by harnessing the unparalleled capabilities of blockchain technology. Distinct from traditional and existing digital solutions, Kubar Protocol offers a unique amalgamation of security, transparency, and efficiency, tailored specifically to empower MSMEs.
+In the challenging landscape of financial accessibility for Medium, Small, and Micro Enterprises (MSMEs), Kubar Protocol stands out as a groundbreaking innovation. Uniquely leveraging blockchain technology fused with behavioral finance insights, our platform offers a novel solution to the perennial issues of working capital access and financial inefficiencies plaguing MSMEs. This DeFi platform, at the intersection of innovation and practicality, redefines supply chain finance by harnessing the unparalleled capabilities of blockchain technology. Diverging from traditional credit models that often misjudge borrowers' repayment capabilities, Kubar Protocol introduces a groundbreaking blend of security, transparency, and behavioral insight-driven efficiency. By predicting the repayment timeline rather than just the probability of repayment, our protocol is uniquely positioned to empower MSMEs with more accurate, behaviorally informed financial solutions.
 
 This whitepaper unfolds the intricate architecture, state-of-the-art technological advancements, and strategic financial mechanisms that form the backbone of the Kubar Protocol. Central to its innovation is the integration of the Commit and Review schemes, which establish a new paradigm for secure and transparent transactions in the digital finance realm. The platform's ingenuity is further amplified by its bespoke tokenomics model, anchored around fiat currencies and stablecoins. This executive summary delineates the transformative journey of the Kubar Protocol in reshaping supply chain finance, making it more accessible, efficient, and user-centric for MSMEs globally.
 
@@ -28,25 +28,27 @@ This whitepaper unfolds the intricate architecture, state-of-the-art technologic
 
 **Bridging Traditional Finance and DeFi Innovations: A Solution for MSMEs**
 
-Kubar Protocol stands at the vanguard of financial innovation, specifically crafted to address the acute challenges faced by MSMEs in the supply chain finance sector. These enterprises, fundamental to global economic growth, often find themselves hindered by inefficiencies such as high operational costs, limited access to essential capital, and opaque financial processes. Traditional financial systems, while reliable, fall short in addressing these challenges dynamically. On the other hand, existing digital financial solutions lack the comprehensive approach needed to tackle these issues effectively.
+Kubar Protocol stands at the vanguard of financial innovation, specifically crafted to address the acute challenges faced by MSMEs in the supply chain finance sector. These enterprises, fundamental to global economic growth, often find themselves hindered by inefficiencies such as high operational costs, limited access to essential capital, and opaque financial processes. Both traditional and digital financial systems critically lack in dynamically predicting borrower behavior, often underestimating the nuanced factors affecting repayments. Kubar Protocol bridges this gap, integrating AI-driven insights into human financial behavior, thus offering a more nuanced and effective approach to supply chain finance. Kubar Protocol uniquely addresses these issues by embedding AI-driven behavioral finance insights into our blockchain-based platform, offering a nuanced and predictive approach to financial assessments that traditional systems significantly lack.'
 
 Enter Kubar Protocol, a platform where the reliability of traditional finance meets the ingenuity of decentralized finance (DeFi). It is engineered to fill the gap in the market by providing a solution that is not only secure and transparent but also intuitively aligns with the operational needs of MSMEs. At its core, the platform revolutionizes transaction validation and dispute resolution through the innovative Commit and Review schemes. This mechanism ensures the integrity and verifiability of transactions, a cornerstone in the realm of digital finance. Complementing this is the platform’s user-friendly tokenomics model centered around fiat currencies and stablecoins, which demystifies blockchain transactions for the average user. The introduction of this whitepaper sets the stage for exploring how the Kubar Protocol harmonizes these varied elements to create a cohesive and impactful user experience, leveraging the power of blockchain technology to revolutionize supply chain finance.
 
 
 # Background and Motivation
 
-The platform is designed to seamlessly bridge the gap between decentralized and traditional finance, alleviating common issues such as high operational costs, lack of transparency, and slow processing times typically associated with conventional supply chain finance methods. By leveraging the power of DeFi, Kubar Protocol promises faster, more accessible, and cost-effective financial services. This whitepaper delves into how Kubar Protocol harmonizes these diverse elements, creating a cohesive and intuitive user experience while harnessing the full potential of blockchain technology for supply chain finance.
+The platform is designed to seamlessly bridge the gap between decentralized and traditional finance, alleviating common issues such as high operational costs, lack of transparency, and slow processing times typically associated with conventional supply chain finance methods. Recognizing the limitations of traditional credit rating models, which fail to capture the full spectrum of borrower behavior and often misestimate repayment probabilities by 10-20%, Kubar Protocol leverages DeFi to introduce a more behaviorally attuned, accurate, and thus more accessible financial service model. This whitepaper delves into how Kubar Protocol harmonizes these diverse elements, creating a cohesive and intuitive user experience while harnessing the full potential of blockchain technology for supply chain finance.
+
+Traditional credit models often overlook the complex interplay of factors influencing financial behavior, leading to inaccurate risk assessments. Kubar Protocol employs principles from behavioral finance, such as cognitive biases and decision-making patterns, to fill this gap, offering a richer, data-driven understanding of borrower behavior.
 
 
 # The Essential Role of Blockchain Technology in Kubar Protocol
 
-Blockchain technology is not just an enhancement but a fundamental component of the Kubar Protocol. It provides distinct advantages in supply chain finance, transforming traditional processes into more efficient, secure, and transparent operations. Below are the measurable ways blockchain technology enhances the supply chain financing process in the Kubar Protocol.
+Blockchain technology underpins Kubar Protocol not only for its security and transparency but also as a critical tool in capturing and analyzing transactional behaviors over time. This data forms the backbone of our AI/ML models that predict repayment timelines with unprecedented accuracy. It provides distinct advantages in supply chain finance, transforming traditional processes into more efficient, secure, and transparent operations.  Below are the measurable ways blockchain technology enhances the supply chain financing process in the Kubar Protocol.
 
 ## 1. Enhanced Security and Trust
 
 - **Immutable Transaction Records**: Blockchain's inherent immutability ensures that once a transaction, such as an invoice approval or payment, is recorded, it cannot be altered or deleted. This feature significantly reduces the risk of fraud and errors, enhancing trust among all parties involved.
   
-  - **Measurable Impact**: Reduction in fraudulent activities can be quantified by comparing the incidence of fraud and disputes before and after implementing the Kubar Protocol.
+  - **Measurable Impact**: By meticulously recording every transaction, blockchain technology not only ensures security and transparency but acts as the foundation for our AI/ML models. These models analyze patterns within the blockchain data to predict repayment timelines, harnessing the power of blockchain beyond its traditional confines.
 
 ## 2. Increased Transparency and Traceability
 
@@ -111,7 +113,7 @@ The Kubar Protocol's core infrastructure is built on Polkadot’s Substrate fram
 
 ### Advantages of Substrate Framework
 
-- **Modularity and Customizability**: Substrate's modular framework allows for the creation of customized blockchain solutions. Each component, or 'pallet' in Substrate terminology, can be developed independently and then integrated into the blockchain. This modularity is crucial for Kubar Protocol, as it enables the development of specific pallets for transaction processing, DID management, and invoice financing, tailored to supply chain finance requirements.
+- **Modularity and Customizability**: Substrate's modular framework allows for the creation of customized blockchain solutions. Each component, or 'pallet' in Substrate terminology, can be developed independently and then integrated into the blockchain. This modularity is crucial for Kubar Protocol, as it enables the development of specific pallets for transaction processing, DID management, and invoice financing, tailored to supply chain finance requirements. For example, the modularity of the Substrate framework allowed us to develop a bespoke Invoice Financing Pallet. This pallet automates the entire invoice financing process, from submission to approval, leveraging interoperability for seamless cross-chain data integration.
 
 - **Interoperability and Cross-Chain Communication**: One of Substrate’s standout features is its inherent ability to facilitate interoperability, a critical requirement for Kubar Protocol. Through Polkadot’s relay chain, Substrate-based blockchains can seamlessly interact and transact with other blockchains within the Polkadot network through Cross-Consensus Message Format (XCM) with enhanced bridge security through multi-signature protocols. This capability allows Kubar Protocol to leverage the strengths of various blockchains, fostering a more integrated and efficient DeFi ecosystem.
 
@@ -283,7 +285,7 @@ One of the key challenges for any financial platform, especially in the DeFi spa
 Through these mechanisms, Kubar Protocol ensures that high-volume transactions are processed efficiently and securely. The integration of layer-two scaling solutions, combined with advanced load balancing and transaction optimization techniques, positions Kubar Protocol as a robust and scalable solution for supply chain finance, capable of handling the demands of a global financial ecosystem.
 ## AI/ML Microservices
 
-Kubar Protocol's AI/ML microservices are central to its innovative approach to supply chain finance. These services leverage sophisticated machine learning models to provide real-time credit scoring and risk analysis, playing a crucial role in the platform's decision-making processes.
+Kubar Protocol's AI/ML microservices are central to its innovative approach to supply chain finance. Our AI/ML microservices go beyond traditional credit scoring by incorporating advanced behavioral finance models. These models predict not just if but when repayments will occur, enhancing our platform's decision-making processes with a deeper understanding of borrower behavior.
 
 ### Types of Machine Learning Models
 
@@ -335,7 +337,7 @@ In Kubar Protocol, the user interface and experience are central to the platform
 
 ### Introduction to Financial Model
 
-Kubar Protocol adopts a streamlined financial model that aligns with traditional financial mechanisms, leveraging the robust capabilities of blockchain technology. This approach is designed to enhance the platform’s efficiency, accessibility, and compliance, particularly catering to the needs of MSMEs and financiers in the supply chain finance sector.
+Kubar Protocol adopts a streamlined financial model that aligns with traditional financial mechanisms, leveraging the robust capabilities of blockchain technology. This approach is designed to enhance the platform’s efficiency, accessibility, and compliance, particularly catering to the needs of MSMEs and financiers in the supply chain finance sector. Incorporating behavioral economics, our models quantify the impact of psychological factors, such as trust and risk preference, on financial decisions. By doing so, Kubar Protocol can more accurately predict payment behaviors and tailor financial products to better meet the needs of MSMEs.'
 
 ### Utilization of Fiat Currencies and Stablecoins
 
@@ -373,8 +375,7 @@ Kubar Protocol’s financial model represents a thoughtful blend of blockchain t
 
 ## Risk Management Strategies
 
-Kubar Protocol integrates advanced financial risk assessment models, particularly Value at Risk (VaR) and Conditional Value at Risk (CVaR), customized for the supply chain finance context.
-
+Beyond conventional risk assessment models like VaR and CVaR, Kubar Protocol innovates by integrating behavioral finance insights into our risk management strategies. This allows for a more nuanced understanding of risk, tailored specifically to the unique dynamics of supply chain finance.
 
 ### Customization of VaR and CVaR
 - **Adaptation for Supply Chain Finance**: Traditional VaR and CVaR models are adapted to consider the unique risk factors in supply chain finance, such as default risks, invoice aging, and buyer-supplier relationships.
@@ -436,7 +437,7 @@ The Kubar Protocol places a high emphasis on regular and comprehensive audits to
 ### Adaptive Compliance Framework
 - **Continuous Monitoring**: The Kubar Protocol employs a dedicated team to continuously monitor global regulatory developments. This includes staying informed about changes in financial regulations, data protection laws (like GDPR), and anti-money laundering (AML) standards.
 - **Collaboration with Legal Experts**: The platform collaborates with legal experts and regulatory consultants across different jurisdictions. These experts provide insights and guidance on complying with regional laws and adapting to new regulatory landscapes.
-- **Automated Compliance Tools**: Kubar Protocol integrates automated tools that flag potential compliance issues. These tools are programmed to align with various regulatory requirements and are regularly updated to reflect the latest legal standards.
+- **Automated Compliance Tools**: Kubar Protocol integrates automated tools that flag potential compliance issues. These tools are programmed to align with various regulatory requirements and are regularly updated to reflect the latest legal standards. To illustrate our proactive approach to regulatory adaptation, consider our development of a dynamic smart contract framework. This framework can adjust transaction protocols in real-time to comply with new regulatory standards, showcasing our commitment to agility and compliance.
 
 ### Proactive Adaptation Strategy
 - **Scenario Planning**: Regular scenario planning exercises are conducted to prepare for potential regulatory changes. This involves analyzing how proposed legal changes could impact operations and devising strategies to adapt swiftly.
@@ -457,7 +458,7 @@ Through rigorous auditing and a dynamic approach to regulatory compliance, Kubar
 
 ### Invoice Financing
 
-- **Capital Ask Process**: Sellers specify their capital ask when uploading invoices, and buyers approve the invoices. As soon as the buyer approves the invoice, a factoring unit is created and the invoice is put up for bidding.
+- **Capital Ask Process**: Upon invoice upload, sellers specify their capital ask, incorporating our AI-driven prediction of the repayment timeline. If this predicted timeline is shorter than the invoice duration, the system automatically approves the invoice for bidding, showcasing our unique approach to financial assessment. As soon as the buyer approves the invoice, a factoring unit is created and the invoice is put up for bidding.
 
 ### Bidding Process and Payment Distribution
 
@@ -466,7 +467,7 @@ Through rigorous auditing and a dynamic approach to regulatory compliance, Kubar
 # Technological Implementation Details
 
 ## Smart Contract Architecture
-- **Design and Optimization**: The smart contracts, deployed on the Substrate framework for the appchain are optimized for gas efficiency and security. They encompass various functionalities, including invoice financing, and payment distributions.
+- **Design and Optimization**: Our smart contracts, optimized for both gas efficiency and security on the Substrate framework, are uniquely designed to process behavioral finance data. This allows for the integration of real-time repayment timeline predictions directly into the transactional fabric of our platform. They encompass various functionalities, including invoice financing, and payment distributions.
 
 ## Integration with AI/ML Microservices
 - **API Gateway for Microservices**: A secure and efficient API gateway facilitates communication between the blockchain infrastructure and AI/ML microservices. This integration ensures real-time data processing and decision-making based on sophisticated AI algorithms.
@@ -525,7 +526,7 @@ Through rigorous auditing and a dynamic approach to regulatory compliance, Kubar
 
 ## Pioneering the Future of Supply Chain Finance
 
-As we reach the conclusion of this whitepaper, Kubar Protocol emerges as a beacon of innovation in the domain of supply chain finance. Our platform, a harmonious blend of blockchain technology with traditional financial systems, is set to redefine efficiency, transparency, and security in financial transactions. Kubar Protocol is poised for continuous evolution, adapting to the dynamic interplay between finance and technology.
+As we reach the conclusion of this whitepaper, Kubar Protocol emerges as a beacon of innovation in the domain of supply chain finance. Kubar Protocol, pioneering the integration of blockchain technology with deep behavioral finance insights, is set to redefine not just the efficiency and transparency but the very accuracy of financial predictions in transactions. Our continuous development will further refine our AI/ML capabilities, ensuring even more precise behavioral predictions and fostering a new standard in supply chain finance. Kubar Protocol is poised for continuous evolution, adapting to the dynamic interplay between finance and technology.
 
 ## Future Development Roadmap
 
@@ -534,6 +535,7 @@ As we reach the conclusion of this whitepaper, Kubar Protocol emerges as a beaco
    - **Q1 2025**: Achieving full integration with major ERP systems to further streamline business processes and enhance user experience on our platform.
 
 2. **Mid-Term Goals**:
+   - **Q2 2025**: In the next year, Kubar Protocol is set to tackle the integration challenge with traditional banking systems, creating a seamless bridge between DeFi and conventional finance. This effort will culminate in our expansion into the Southeast Asian market by Q2 2025.
    - **Q3 2025**: Broadening the spectrum of financial services offered, including advanced invoice financing options, and integrating with global payment gateways for wider accessibility.
    - **Q1 2026**: Deploying AI-driven analytics for enhanced risk management and insightful market trend analysis, fostering data-driven financial decisions.
 
