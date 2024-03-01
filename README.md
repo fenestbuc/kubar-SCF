@@ -378,24 +378,27 @@ Kubar Protocol’s financial model represents a thoughtful blend of blockchain t
 
 ## Risk Management Strategies
 
-Beyond conventional risk assessment models like VaR and CVaR, Kubar Protocol innovates by integrating behavioral finance insights into our risk management strategies. This allows for a more nuanced understanding of risk, tailored specifically to the unique dynamics of supply chain finance.
+Kubar Protocol revolutionizes risk management by embedding behavioral finance principles into our strategies, surpassing traditional models like Value at Risk (VaR) and Conditional Value at Risk (CVaR). This innovative approach enables a deeper, more nuanced comprehension of risks, specifically tailored to the intricate dynamics of supply chain finance.
 
-### Customization of VaR and CVaR
-- **Adaptation for Supply Chain Finance**: Traditional VaR and CVaR models are adapted to consider the unique risk factors in supply chain finance, such as default risks, invoice aging, and buyer-supplier relationships.
-- **Data-Driven Approach**: The models are fed with a combination of on-chain transaction data and external financial indicators, enhancing their predictive accuracy. Machine learning algorithms are employed to continuously refine these models based on new data and emerging market trends.
+### Customization of VaR and CVaR for Behavioral Insights
 
-### Additional Risk Assessment Models
-- **Credit Scoring Model**: This model evaluates the creditworthiness of parties involved in transactions. It uses historical transaction data, repayment history, and external credit ratings, offering a comprehensive view of credit risk.
+- **Behavioral Adaptations in Supply Chain Finance**: We have redefined VaR and CVaR models to account for the behavioral dynamics of supply chain participants. This includes considerations for default risks influenced by behavioral factors, the aging of invoices as a reflection of payment habits, and the intricacies of buyer-supplier relationships beyond mere financial transactions.
+- **Enhanced Predictive Accuracy with Behavioral Data**: Our models integrate a rich dataset encompassing on-chain transaction behaviors and off-chain financial behaviors, significantly improving their predictive capabilities. Machine learning algorithms analyze these data points to continuously evolve the models in line with market developments and behavioral trends.
 
-### Real-World Application
-- **Scenario Analysis**: The risk management framework of Kubar Protocol includes scenario analysis tools that simulate various market conditions and stress scenarios. These tools help in understanding the impact of extreme market movements on the platform's stability and the effectiveness of its risk mitigation strategies.
+### Incorporating Behavioral Finance in Risk Assessment
 
-## Risk Assessment Models
+- **Behavioral Credit Scoring Model**: This advanced model evaluates credit risk by combining traditional financial data with insights into the behavioral patterns of transaction participants. It considers historical transaction behaviors, repayment patterns, and broader market dynamics, offering a multidimensional view of credit risk.
 
-### Value at Risk (VaR) and Conditional Value at Risk (CVaR)
+### Real-World Behavioral Scenario Analysis
 
-- **Value at Risk (VaR) Formula**: 
-   - **Definition**: VaR is a statistical technique used to measure and quantify the level of financial risk within a firm or investment portfolio over a specific time frame.
+- **Advanced Scenario Tools**: Our risk management framework incorporates scenario analysis tools designed to simulate a wide range of behavioral market conditions and stress scenarios. This approach enables a profound understanding of how extreme behavioral shifts in the market could impact the platform’s financial stability and the efficacy of its risk mitigation strategies.
+
+## Risk Assessment Models Enhanced with Behavioral Insights
+
+### Value at Risk (VaR) and Conditional Value at Risk (CVaR) with Behavioral Adjustments
+
+- **Behaviorally Enhanced VaR**: 
+   - **Definition**: In Kubar Protocol, VaR calculations are adjusted to factor in the behavioral dimensions of our portfolio, providing a more accurate reflection of risk under varied behavioral scenarios.
    - **Formula**: 
      ```
      VaR = Z * σ * √t
@@ -406,16 +409,18 @@ Beyond conventional risk assessment models like VaR and CVaR, Kubar Protocol inn
       - `t` = time frame
    - **Application**: In Kubar Protocol, VaR is used to assess the risk of a portfolio of invoices or transactions. For instance, calculating the VaR over a 30-day period at a 95% confidence level gives an estimate of the maximum expected loss.
 
-- **Conditional Value at Risk (CVaR) Computation**: 
-   - **Definition**: CVaR provides an expected loss over a specific time frame that exceeds the VaR.
-   - **Formula**: 
+- **Behaviorally Informed CVaR**: 
+   - **Definition**: CVaR, in our context, delves deeper into assessing the tail risks associated with behavioral anomalies, ensuring that decisions are made with a comprehensive understanding of potential extreme behavioral impacts on our financial landscape.
+   - **Formula**:
      ```
-     CVaR = 1/(1 - α) * ∫ from -∞ to VaR of x * f(x) dx
+     VaR = Z * (σ + β) * √t
      ```
    - **Where**:
-      - `α` = confidence level
-      - `f(x)` = probability density function of the loss
-   - **Application**: CVaR is used in Kubar Protocol to understand the tail risk of investments. It helps in making more informed decisions regarding riskier transactions.
+      - `Z` = Z-score (standard deviation reflecting confidence level)
+      - `σ` = base volatility of the portfolio
+      - `β` = behavioral adjustment factor, quantifying the impact of behavioral biases on volatility
+      - `t` = time frame
+   - **Application**: This formula helps in assessing the risk of a portfolio by considering both traditional market factors and behavioral adjustments, offering a more comprehensive risk profile.
 
 
 ## Conclusion
