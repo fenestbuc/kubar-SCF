@@ -572,7 +572,7 @@ Kubar Protocol is more than a technological breakthrough; it's about creating a 
 
 # System Architecture
 
-![Technical Architecture.png](resources/Kubar Architecture-resized.png)
+![Technical Architecture.png](https://github.com/fenestbuc/kubar-protocol/blob/e9b1125a9fe739871ea2ab3f97acefc2946c566d/resources/Kubar%20Architecture-resized.png)
 
 ---
 
