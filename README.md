@@ -413,7 +413,7 @@ Kubar Protocol revolutionizes risk management by embedding behavioral finance pr
    - **Definition**: CVaR, in our context, delves deeper into assessing the tail risks associated with behavioral anomalies, ensuring that decisions are made with a comprehensive understanding of potential extreme behavioral impacts on our financial landscape.
    - **Formula**:
      ```
-     VaR = Z * (σ + β) * √t
+     CVaR = Z * (σ + β) * √t
      ```
    - **Where**:
       - `Z` = Z-score (standard deviation reflecting confidence level)
